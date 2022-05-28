@@ -10,7 +10,7 @@
     }
 
     const resp: Response = await this.fetch(
-      `${PULSAR_INSTANCE}/api/v1/documents/${slug}`
+      `${PULSAR_INSTANCE}/v1/documents/${slug}`
     )
     const code = await resp.json()
 
